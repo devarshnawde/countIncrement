@@ -1,0 +1,37 @@
+.navbar{
+    background-color: aqua;
+}
+h2 {
+    font-size: 36px;
+    color: #3366ff;
+    text-align: center;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 8px;
+    text-transform: lowercase;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin: 0;
+    letter-spacing: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  
+    /* Additional text styles */
+    font-family: "Cursive", cursive; /* Choose a beautiful font-family */
+    line-height: 1.3; /* Adjust line height for readability and aesthetics */
+    text-decoration: underline; /* Add an underline to the text */
+    text-overflow: ellipsis; /* Use an ellipsis for overflow text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflow */
+  }
+
+  h2 span{
+    text-transform: uppercase;
+
+  }
+  
+  h2:hover {
+    background-color: #ff3399;
+    color: #333;
+  }
+
